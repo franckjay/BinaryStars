@@ -1,0 +1,51 @@
+1.0000000000000          fill1
+0.0050000000000          fill2
+    1.000000000          omega1
+    1.000000000          omega2
+ 2.000000000000000       Q
+80.000000000000          finc
+  6500.0000              Teff1
+  6500.0000              Teff2
+ 2.0000000000            betarim
+ 0.0050000000            rinner
+ 0.7500000000            router
+   30000.000             tdisk
+    -0.75000             xi
+   0.0010000000          log10(Lx)
+           5.0000000000  separ
+   50.000000             gamma velocity
+     -5000.0000          t3
+       -5.00000          g3
+      -0.10000000        SA3
+         0.000000        density in g/cc
+ 0.32067228540           r_eff (star 1)
+ 0.29976788823           r_pole (star 1)
+ 0.42924842848           x(point) (star 1)
+ 0.34536949714           x(end) (star 1)
+     5.2516892643        potential at fill1*L1
+ 0.130386300E+01         surface area (star 1)
+ 0.138125191E+00         volume (star 1)
+ 6933.399293736          polar temperature (star 1)
+ 0.00285400232           r_eff (star 2)
+ 0.00285375776           r_pole (star 2)
+ 0.00285375786           x(point) (star 2)
+ 0.00285375786           x(end) (star 2)
+   701.3303289809        potential at fill2*L1
+ 0.102365996E-03         surface area (star 2)
+ 0.973759205E-07         volume (star 2)
+ 6500.000113269          polar temperature (star 2)
+   0.0815449503          mass of star 1 in solar masses
+   0.1630899006          mass of star 2 in solar masses
+   1.6033614270          radius of star 1 in solar radii
+   0.0142700116          radius of star 2 in solar radii
+ 2.939071                log(g) of star 1, cgs
+ 7.341315                log(g) of star 2, cgs
+    3.33333              a1 (solar radii)
+    1.66667              a2 (solar radii)
+   5.0000000000          a (solar radii)
+  63.4149710483          K_1 (km/sec)
+  31.7074855241          K_2 (km/sec)
+  30.5031                V1_rot*sin(i) (km/sec)
+   0.2715                V2_rot*sin(i) (km/sec)
+  30.5031                V1_rot*sin(i), scaled by omega1 (km/sec)
+   0.2715                V2_rot*sin(i), scaled by omega2 (km/sec)

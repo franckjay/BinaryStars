@@ -1,0 +1,145 @@
+40                  Nalph1
+14                  Nbet1
+40                  Nalph2
+14                  Nbet2
+1.0000              fill1
+0.0050              fill2
+   1.00             omega1
+   1.00             omega2
+3.00                dphase
+2.00                Q
+80.00               finc
+6500.0              Teff1
+6500.0              Teff2
+0.25                Tgrav1
+0.25                Tgrav2
+2.00                betarim
+0.005               rinner
+0.75                router
+30000.0             tdisk
+-0.7500             xi
+ 90                 Ntheta
+ 60                 Nradius
+1.0000              alb1
+1.0000              alb2
+1                   Nref
+   0.00100          log10(Lx)
+2.620000            Period
+3.000               fm
+5.000               separ
+  50.00             gamma velocity (km/sec)
+  -5000.00          t3
+-5.00               g3
+   -0.100000        SA3
+    0.000000        density in g/cc
+    0.000000        onephase
+    0.000000        usepot1
+    0.000000        usepot2
+    0.000000        T0
+0                   idraw
+1                   iecheck
+1                   idint
+0                   iatm  (0 for BB, 1 for model atmospheres)
+1                   ism1  (0 for all phases, 1 for 0-180)
+1 1 1 1 1 1 1 1     icnU,icnB,icnV,icnR,icnI,icnJ,icnH,icnK
+3                   iRVfilt
+0                   ionephase
+0                   isquare
+0                   iusepot
+0                   ifixgamma
+ 1                  ilaw  (1=linear law, 2=logarithmic law, 3=square root law, 4=quad law, >10 for power series)
+ 3600.0    0.6350  0.2420  0.6350  0.2420  0.0000  0.0000  0.0000  0.0000
+ 4500.0    0.6350  0.2420  0.6350  0.2420  0.0000  0.0000  0.0000  0.0000
+ 5550.0    0.6350  0.2420  0.6350  0.2420  0.0000  0.0000  0.0000  0.0000
+ 6700.0    0.6350  0.2420  0.6350  0.2420  0.0000  0.0000  0.0000  0.0000
+ 8700.0    0.6350  0.2420  0.6350  0.2420  0.0000  0.0000  0.0000  0.0000
+12000.0    0.6350  0.2420  0.6350  0.2420  0.0000  0.0000  0.0000  0.0000
+16200.0    0.6350  0.2420  0.6350  0.2420  0.0000  0.0000  0.0000  0.0000
+22000.0    0.6350  0.2420  0.6350  0.2420  0.0000  0.0000  0.0000  0.0000
+0.00000000          eccentricity
+  90.00000000       argument of peristron in degrees
+ 0.00000000         pshift
+    0.000000        asini (projected semimajor axis in seconds)
+    0.000000        median fit (geneticELC only)
+    0.000000        sw7 (currently inactive)
+    0.000000        sw8 (currently inactive)
+    0.000000        sw9 (currently inactive)
+0                   ikeep (1 to put eclipse at phase 0.0)
+0                   isynch (1 to keep rotation synchronous at periastron)
+0                   ispotprof
+0                   igrav
+0                   itime
+     0              MonteCarlo (0 for interpolation, >10 for Monte Carlo)
+0                   ielite
+-1.0000000          Temperature factor spot 1, star 1
+ -1.0000000         Latitude of spot 1, star 1 (degrees)
+ -1.0000000         Longitude of spot 1, star 1 (degrees)
+ -1.0000000         Angular radius of spot 1, star 1 (degrees)
+-1.0000000          Temperature factor spot 2, star 1
+ -1.0000000         Latitude of spot 2, star 1 (degrees)
+ -1.0000000         Longitude of spot 2, star 1 (degrees)
+ -1.0000000         Angular radius of spot 2, star 1 (degrees)
+-1.0000000          Temperature factor spot 1, star 2
+ -1.0000000         Latitude of spot 1, star 2 (degrees)
+ -1.0000000         Longitude of spot 1, star 2 (degrees)
+ -1.0000000         Angular radius of spot 1, star 2 (degrees)
+-1.0000000          Temperature factor spot 2, star 2
+ -1.0000000         Latitude of spot 2, star 2 (degrees)
+ -1.0000000         Longitude of spot 2, star 2 (degrees)
+ -1.0000000         Angular radius of spot 2, star 2 (degrees)
+-1.0000000          Temperature factor spot 1, disk
+ -1.0000000         Azimuth of spot 1, disk (degrees)
+ -1.0000000         Radial cutoff of spot 1, disk (0 <= r_cut <=1)
+ -1.0000000         Angular size of spot 1, disk (degrees)
+-1.0000000          Temperature factor spot 2, disk
+ -1.0000000         Azimuth of spot 2, disk (degrees)
+ -1.0000000         Radial cutoff of spot 2, disk (0 <= r_cut <=1)
+ -1.0000000         Angular size of spot 2, disk (degrees)
+  0.000000000       primmass (star 1 mass in solar masses)
+   0.000000000      primK (K-velocity of star 1 in km/sec)
+   0.000000000      primrad (star 1 radius in solar radii)
+     0.000000000    ratrad (ratio of star 1 radius and star 2 radius)
+0.00                frac1 (fractional radius star 1: R_1/a)
+0.00                frac2 (fractional radius star 2: R_2/a)
+ 0.000000000        ecosw (phase difference between eclipses)
+ 0.0000000          temprat (T_1/T_2)
+0                   idark1
+0                   idark2
+     0              Npoly (0 for numerical)
+0                   ifasttrans (>0 for fast transit mode)
+0                   ialign (0 for rotation aligned with orbit)
+0                   ifastgen (1 for fast genetic mode)
+0                   isw23 (currently inactive)
+0                   frac switch (>1 to enable ELCratio.???? files)
+ 0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+ 0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+ 0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+ 0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+ 0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+ 0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+ 0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+ 0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+  0.0000000         axis_I (inclination of rotation axis if ialign=1)
+  0.0000000         axis_beta (angle of rotation axis wrt to orbit if ialign=1)
+      0.0000000     t_start
+      0.0000000     t_end
+ 0.0000000                   asini error
+0.00000000          reference phase for disk fraction
+0.00000000          radfill1 (set to use fill1 in terms of R_eff
+0.00000000          radfill2 (set to use fill2 in terms of R_eff
+    0.0000          bin size for light curves (minutes)
+    0.0000          bin size for RV curves (minutes)
+0.00                sw31 (currently inactive)
+     0.00000000     Tconj
+0.00                sw33 (currently inactive)
+0.00                sw34 (currently inactive)
+0                   isw25 (currently inactive)
+0                   isw26 (currently inactive)
+     0              Nterms for fast analytic
+0                   set to 1 to fit for Tconj
+0                   isw29 (currently inactive)
+0                   isw30 (currently inactive)
+0                   isw31 (currently inactive)
+0                   isw32 (currently inactive)
+0                   isw33 (currently inactive)
+0                   isw34 (currently inactive)
